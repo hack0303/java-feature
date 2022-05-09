@@ -8,6 +8,7 @@ level 1 support
 level 0 native
 ! is import
 # list
+1. JDK 9
 ```
 102: Process API Updates  2
 110: HTTP 2 Client 2
@@ -100,6 +101,119 @@ level 0 native
 297: Unified arm32/arm64 Port
 298: Remove Demos and Samples
 299: Reorganize Documentation
+2. JDK 10
+Features
+286: Local-Variable Type Inference
+296: Consolidate the JDK Forest into a Single Repository
+304: Garbage-Collector Interface
+307: Parallel Full GC for G1
+310: Application Class-Data Sharing
+312: Thread-Local Handshakes
+313: Remove the Native-Header Generation Tool (javah)
+314: Additional Unicode Language-Tag Extensions
+316: Heap Allocation on Alternative Memory Devices
+317: Experimental Java-Based JIT Compiler
+319: Root Certificates
+322: Time-Based Release Versioning
+3. JDK 11
+181: Nest-Based Access Control
+309: Dynamic Class-File Constants
+315: Improve Aarch64 Intrinsics
+318: Epsilon: A No-Op Garbage Collector
+320: Remove the Java EE and CORBA Modules
+321: HTTP Client (Standard)
+323: Local-Variable Syntax for Lambda Parameters
+324: Key Agreement with Curve25519 and Curve448
+327: Unicode 10
+328: Flight Recorder
+329: ChaCha20 and Poly1305 Cryptographic Algorithms
+330: Launch Single-File Source-Code Programs
+331: Low-Overhead Heap Profiling
+332: Transport Layer Security (TLS) 1.3
+333: ZGC: A Scalable Low-Latency Garbage Collector
+   (Experimental)
+335: Deprecate the Nashorn JavaScript Engine
+336: Deprecate the Pack200 Tools and API
+4. JDK 12
+189:	Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)
+230:	Microbenchmark Suite
+325:	Switch Expressions (Preview)
+334:	JVM Constants API
+340:	One AArch64 Port, Not Two
+341:	Default CDS Archives
+344:	Abortable Mixed Collections for G1
+346:	Promptly Return Unused Committed Memory from G1
+5. JDK 13
+350:	Dynamic CDS Archives
+351:	ZGC: Uncommit Unused Memory
+353:	Reimplement the Legacy Socket API
+354:	Switch Expressions (Preview)
+355:	Text Blocks (Preview)
+6. JDK 14
+305:	Pattern Matching for instanceof (Preview)
+343:	Packaging Tool (Incubator)
+345:	NUMA-Aware Memory Allocation for G1
+349:	JFR Event Streaming
+352:	Non-Volatile Mapped Byte Buffers
+358:	Helpful NullPointerExceptions
+359:	Records (Preview)
+361:	Switch Expressions (Standard)
+362:	Deprecate the Solaris and SPARC Ports
+363:	Remove the Concurrent Mark Sweep (CMS) Garbage Collector
+364:	ZGC on macOS
+365:	ZGC on Windows
+366:	Deprecate the ParallelScavenge + SerialOld GC Combination
+367:	Remove the Pack200 Tools and API
+368:	Text Blocks (Second Preview)
+370:	Foreign-Memory Access API (Incubator)
+7. JDK 15
+339:	Edwards-Curve Digital Signature Algorithm (EdDSA)
+360:	Sealed Classes (Preview)
+371:	Hidden Classes
+372:	Remove the Nashorn JavaScript Engine
+373:	Reimplement the Legacy DatagramSocket API
+374:	Disable and Deprecate Biased Locking
+375:	Pattern Matching for instanceof (Second Preview)
+377:	ZGC: A Scalable Low-Latency Garbage Collector
+378:	Text Blocks
+379:	Shenandoah: A Low-Pause-Time Garbage Collector
+381:	Remove the Solaris and SPARC Ports
+383:	Foreign-Memory Access API (Second Incubator)
+384:	Records (Second Preview)
+385:	Deprecate RMI Activation for Removal
+8. JDK 16
+338:	Vector API (Incubator)
+347:	Enable C++14 Language Features
+357:	Migrate from Mercurial to Git
+369:	Migrate to GitHub
+376:	ZGC: Concurrent Thread-Stack Processing
+380:	Unix-Domain Socket Channels
+386:	Alpine Linux Port
+387:	Elastic Metaspace
+388:	Windows/AArch64 Port
+389:	Foreign Linker API (Incubator)
+390:	Warnings for Value-Based Classes
+392:	Packaging Tool
+393:	Foreign-Memory Access API (Third Incubator)
+394:	Pattern Matching for instanceof
+395:	Records
+396:	Strongly Encapsulate JDK Internals by Default
+397:	Sealed Classes (Second Preview)
+9. JDK 17
+306:	Restore Always-Strict Floating-Point Semantics
+356:	Enhanced Pseudo-Random Number Generators
+382:	New macOS Rendering Pipeline
+391:	macOS/AArch64 Port
+398:	Deprecate the Applet API for Removal
+403:	Strongly Encapsulate JDK Internals
+406:	Pattern Matching for switch (Preview)
+407:	Remove RMI Activation
+409:	Sealed Classes
+410:	Remove the Experimental AOT and JIT Compiler
+411:	Deprecate the Security Manager for Removal
+412:	Foreign Function & Memory API (Incubator)
+414:	Vector API (Second Incubator)
+415:	Context-Specific Deserialization Filters
 ```
 # REF
 [java9](https://openjdk.java.net/projects/jdk9/)
